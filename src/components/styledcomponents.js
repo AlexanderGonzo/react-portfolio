@@ -1,17 +1,27 @@
 import styled from "styled-components";
 
 export const Div = styled.div`
-  font-family: monospace;
-  height: "100%";
-  width: "100%";
-  background: "#000000";
+  font-family: "Inconsolata", monospace;
+  height: 100%;
+  width: 100%;
   position: absolute;
   top: 0;
   left: 0;
+  font-size: 12px;
 `;
-const Pre = styled.div`
-  font-family: monospace;
+export const Pre = styled.div`
+  font-family: "Inconsolata", monospace;
   white-space: pre;
   color: white;
 `;
-export default Pre;
+
+export const Divider = styled.div`
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  letter-spacing: 4px;
+  color: ${props => props.theme.main};
+`;
