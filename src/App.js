@@ -3,7 +3,7 @@ import Particles from "./components/particles";
 import data from "./data/resumeData";
 import { Div } from "./components/styledcomponents";
 import Header from "./components/header";
-// const Header = lazy(() => import('./components/header'));
+
 import "./App.css";
 
 class App extends React.Component {
