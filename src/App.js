@@ -1,9 +1,9 @@
-import React from "react";
+import React, { Suspense, lazy } from "react";
 import Particles from "./components/particles";
 import data from "./data/resumeData";
 import { Div } from "./components/styledcomponents";
-import Terminal from "./components/terminal";
 import Header from "./components/header";
+// const Header = lazy(() => import('./components/header'));
 import "./App.css";
 
 class App extends React.Component {
@@ -15,12 +15,11 @@ class App extends React.Component {
   }
 
   render() {
-    
     return (
       <div className="App">
-        <Particles />
+        {/* <Particles /> */}
         <Div>
-          <Header/>
+          <Header />
         </Div>
       </div>
     );
