@@ -1,5 +1,5 @@
 import React from "react";
-import { Divider } from "./styledcomponents";
+import { Pre, Divider } from "./styled.components.jsx";
 class Terminal extends React.Component {
   render() {
     if (this.props.data) {
@@ -19,10 +19,10 @@ class Terminal extends React.Component {
     }
     return (
       <div>
-        <span>
+        <Pre>
           Welcome to Alex.dev! Use the help command to get a list of commands
           available. For example: ls -al, about, experience etc...
-        </span>
+        </Pre>
 
         <Divider style={{ color: "yellow" }}>
           ----

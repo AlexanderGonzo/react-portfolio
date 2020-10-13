@@ -13,10 +13,13 @@ export const Pre = styled.div`
   font-family: "Inconsolata", monospace;
   white-space: pre;
   color: white;
+  font-size: 12px;
+  margin-left: 1%;
 `;
 
 export const Divider = styled.div`
   width: 100%;
+  left: 0 !important;
   overflow: hidden;
   white-space: nowrap;
   margin-top: 5px;
