@@ -10,16 +10,17 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      resumeData: data
+      resumeData: data,
     };
   }
 
   render() {
     return (
       <div className="App">
-        {/* <Particles /> */}
+        <Particles />
         <Div>
           <Header />
+          
         </Div>
       </div>
     );

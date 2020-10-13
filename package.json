@@ -4,16 +4,16 @@
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.4.0",
+    "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "ascii-art": "^2.5.0",
     "ascii-art-font": "^1.0.2",
     "ascii-art-table": "^1.0.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-particles-js": "^2.7.1",
-    "react-scripts": "3.3.1",
-    "styled-components": "^5.0.1"
+    "react-scripts": "^3.4.3",
+    "styled-components": "^5.2.0"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Particles from "react-particles-js";
 
 class Canvas extends Component {
-  state = { width: "0px", height: "0px", };
+  state = { width: "0px", height: "0px" };
   componentDidMount() {
     this.updateWindowDimensions();
     window.addEventListener("resize", this.updateWindowDimensions);
@@ -13,7 +13,7 @@ class Canvas extends Component {
   updateWindowDimensions = () => {
     this.setState({
       width: `${window.innerWidth}px`,
-      height: `${window.innerHeight}px`
+      height: `${window.innerHeight}px`,
     });
   };
   render() {
@@ -27,24 +27,24 @@ class Canvas extends Component {
             number: {
               value: 400,
               density: {
-                enable: true
-              }
+                enable: true,
+              },
             },
             size: {
               value: 2,
               random: true,
               anim: {
                 speed: 2,
-                size_min: 0.3
-              }
+                size_min: 0.3,
+              },
             },
             line_linked: {
-              enable: false
+              enable: false,
             },
             move: {
               random: true,
               speed: 1,
-              out_mode: "out"
+              out_mode: "out",
             },
             color: {
               value: [
@@ -59,13 +59,12 @@ class Canvas extends Component {
                 "#b80fb7",
                 "#90023f",
                 "#FFFFFF",
-                "#FFFFFF"
-              ]
-            }
-          }
+                "#FFFFFF",
+              ],
+            },
+          },
         }}
       />
-      
     );
   }
 }

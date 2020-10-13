@@ -22,6 +22,5 @@ export const Divider = styled.div`
   margin-top: 5px;
   margin-bottom: 5px;
   font-size: 12px;
-  letter-spacing: 4px;
   color: ${props => props.theme.main};
 `;
